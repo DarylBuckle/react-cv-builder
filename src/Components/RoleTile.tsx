@@ -38,7 +38,7 @@ export const RoleTileComponent = ({ role }: Props) => {
       </div>
       {role.positions && role.positions.length > 0 && (
         <div className='mb-2'>
-          Positions held;
+          Positions held:
           <ul>
             {role.positions.map((p, i) => (
               <li key={'position-' + i}>
